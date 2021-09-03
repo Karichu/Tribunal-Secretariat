@@ -1,0 +1,72 @@
+.admin-wrapper{
+      display: flex;
+      
+      }
+      .admin-wrapper .left-sidenav{
+      height: 100%;
+      width: 250px;
+      height: 100%; 
+      position: fixed; 
+      z-index: 1; 
+      top: 0; 
+      left: 0;
+     /*text-decoration-color: #EDF0E5;*/
+      background-color: #189B41;
+      overflow-x: hidden; 
+      padding-top: 20px;
+      
+      }
+      .admin-wrapper .admin-content{
+      flex: 8;
+      height: 100%;
+      width: 900px;
+      padding: 10px 270px 200px;
+      /*overflow-y: scroll;*/
+      }
+       .admin-wrapper .left-sidenav ul{
+      list-style: none;
+      margin: 30px;
+      padding: 8px;
+      /*text-decoration-color: #EDF0E5;*/
+
+       }
+       .admin-wrapper .left-sidenav ul li a{
+        padding: 18px;
+        display: block;
+        border-bottom: 1px solid #1b5e20;
+        color: #EDF0E5;
+        /*text-decoration-color: #EDF0E5;*/
+
+       }
+       .admin-wrapper .left-sidenav ul li a:hover{
+        background-color: #1b5e20;
+       }
+       .admin-content .page-title{
+        text-align: center;
+        
+       }
+       
+       table{
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 1.1rem;
+       }
+      th, td {
+        padding: 5px;
+        text-align: left;
+
+      }
+      .edit{
+        color: green;
+      }
+      .delete{
+        color: red;
+      }
+      .publish{
+        color: blue;
+      }
+      .edit:hover,
+      .delete:hover,
+      .publish:hover {
+      text-decoration: underline;
+      }
